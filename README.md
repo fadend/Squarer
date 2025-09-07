@@ -8,6 +8,17 @@ This apps let you "square up" that rectangle, undo-ing the perspectival projecti
 This follows the code example from "Geometry for Programmers" by Oleksandr Kaleniuk,
 https://www.manning.com/books/geometry-for-programmers.
 
+## Setting up a dev instance
+
+```
+git clone https://github.com/fadend/Squarer
+cd Squarer
+pnpm install
+pnpm tauri dev
+```
+
 ## Recommended IDE Setup
+
+Copied from the default Tauri README.
 
 - [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
