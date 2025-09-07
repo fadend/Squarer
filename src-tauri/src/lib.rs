@@ -17,7 +17,7 @@ struct ControlPoint {
 }
 
 #[derive(Debug)]
-struct ImageSquaringError {
+pub struct ImageSquaringError {
     message: String,
 }
 
